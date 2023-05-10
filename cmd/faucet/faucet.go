@@ -39,25 +39,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/gorilla/websocket"
+	"github.com/youngqqcn/arbitrum/accounts"
+	"github.com/youngqqcn/arbitrum/accounts/keystore"
+	"github.com/youngqqcn/arbitrum/cmd/utils"
+	"github.com/youngqqcn/arbitrum/common"
+	"github.com/youngqqcn/arbitrum/core"
+	"github.com/youngqqcn/arbitrum/core/types"
+	"github.com/youngqqcn/arbitrum/eth/downloader"
+	"github.com/youngqqcn/arbitrum/eth/ethconfig"
+	"github.com/youngqqcn/arbitrum/ethclient"
+	"github.com/youngqqcn/arbitrum/ethstats"
+	"github.com/youngqqcn/arbitrum/internal/version"
+	"github.com/youngqqcn/arbitrum/les"
+	"github.com/youngqqcn/arbitrum/log"
+	"github.com/youngqqcn/arbitrum/node"
+	"github.com/youngqqcn/arbitrum/p2p"
+	"github.com/youngqqcn/arbitrum/p2p/enode"
+	"github.com/youngqqcn/arbitrum/p2p/nat"
+	"github.com/youngqqcn/arbitrum/params"
 )
 
 var (
@@ -463,7 +463,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethereum/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/youngqqcn/arbitrum/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

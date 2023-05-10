@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/youngqqcn/arbitrum/common/mclock"
+	"github.com/youngqqcn/arbitrum/log"
 )
 
 const (

@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/youngqqcn/arbitrum/common"
+	"github.com/youngqqcn/arbitrum/consensus/ethash"
+	"github.com/youngqqcn/arbitrum/core"
+	"github.com/youngqqcn/arbitrum/core/types"
+	"github.com/youngqqcn/arbitrum/log"
+	"github.com/youngqqcn/arbitrum/params"
+	"github.com/youngqqcn/arbitrum/trie"
 )
 
 // makeChain creates a chain of n blocks starting at and including parent.

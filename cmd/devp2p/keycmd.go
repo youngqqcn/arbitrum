@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
 	"github.com/urfave/cli/v2"
+	"github.com/youngqqcn/arbitrum/crypto"
+	"github.com/youngqqcn/arbitrum/p2p/enode"
+	"github.com/youngqqcn/arbitrum/p2p/enr"
 )
 
 var (

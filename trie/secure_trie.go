@@ -17,10 +17,10 @@
 package trie
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/youngqqcn/arbitrum/common"
+	"github.com/youngqqcn/arbitrum/core/types"
+	"github.com/youngqqcn/arbitrum/log"
+	"github.com/youngqqcn/arbitrum/rlp"
 )
 
 // SecureTrie is the old name of StateTrie.

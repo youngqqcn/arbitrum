@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/require"
+	"github.com/youngqqcn/arbitrum/internal/testlog"
+	"github.com/youngqqcn/arbitrum/log"
+	"github.com/youngqqcn/arbitrum/p2p/discover/v5wire"
+	"github.com/youngqqcn/arbitrum/p2p/enode"
+	"github.com/youngqqcn/arbitrum/p2p/enr"
+	"github.com/youngqqcn/arbitrum/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/youngqqcn/arbitrum/common"
+	"github.com/youngqqcn/arbitrum/consensus/ethash"
+	"github.com/youngqqcn/arbitrum/console/prompt"
+	"github.com/youngqqcn/arbitrum/core"
+	"github.com/youngqqcn/arbitrum/eth"
+	"github.com/youngqqcn/arbitrum/eth/ethconfig"
+	"github.com/youngqqcn/arbitrum/internal/jsre"
+	"github.com/youngqqcn/arbitrum/miner"
+	"github.com/youngqqcn/arbitrum/node"
 )
 
 const (

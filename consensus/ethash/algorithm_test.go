@@ -25,9 +25,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/youngqqcn/arbitrum/common"
+	"github.com/youngqqcn/arbitrum/common/hexutil"
+	"github.com/youngqqcn/arbitrum/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

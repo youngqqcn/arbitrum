@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/youngqqcn/arbitrum/consensus"
+	"github.com/youngqqcn/arbitrum/consensus/ethash"
+	"github.com/youngqqcn/arbitrum/core/rawdb"
+	"github.com/youngqqcn/arbitrum/core/types"
+	"github.com/youngqqcn/arbitrum/core/vm"
+	"github.com/youngqqcn/arbitrum/ethdb"
+	"github.com/youngqqcn/arbitrum/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/youngqqcn/arbitrum/common"
 )
 
 // memoryNode is all the information we know about a single cached trie node

@@ -3,9 +3,9 @@ package arbitrum
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/params"
 	flag "github.com/spf13/pflag"
+	"github.com/youngqqcn/arbitrum/eth/ethconfig"
+	"github.com/youngqqcn/arbitrum/params"
 )
 
 type Config struct {

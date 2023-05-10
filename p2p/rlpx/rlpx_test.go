@@ -29,11 +29,11 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
+	"github.com/youngqqcn/arbitrum/crypto"
+	"github.com/youngqqcn/arbitrum/crypto/ecies"
+	"github.com/youngqqcn/arbitrum/p2p/simulations/pipes"
+	"github.com/youngqqcn/arbitrum/rlp"
 )
 
 type message struct {

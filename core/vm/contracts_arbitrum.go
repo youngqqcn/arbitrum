@@ -1,6 +1,6 @@
 package vm
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/youngqqcn/arbitrum/common"
 
 var (
 	PrecompiledContractsArbitrum = make(map[common.Address]PrecompiledContract)

@@ -19,8 +19,8 @@ package utils
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/internal/flags"
 	"github.com/urfave/cli/v2"
+	"github.com/youngqqcn/arbitrum/internal/flags"
 )
 
 var ShowDeprecated = &cli.Command{

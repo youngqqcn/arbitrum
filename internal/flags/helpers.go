@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/urfave/cli/v2"
+	"github.com/youngqqcn/arbitrum/internal/version"
+	"github.com/youngqqcn/arbitrum/params"
 )
 
 // NewApp creates an app with sane defaults.

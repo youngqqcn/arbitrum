@@ -20,8 +20,8 @@ package tracers
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/youngqqcn/arbitrum/common"
+	"github.com/youngqqcn/arbitrum/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

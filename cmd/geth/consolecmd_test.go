@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/youngqqcn/arbitrum/internal/version"
+	"github.com/youngqqcn/arbitrum/params"
 )
 
 const (

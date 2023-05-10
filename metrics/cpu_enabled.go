@@ -20,8 +20,8 @@
 package metrics
 
 import (
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/shirou/gopsutil/cpu"
+	"github.com/youngqqcn/arbitrum/log"
 )
 
 // ReadCPUStats retrieves the current CPU stats.

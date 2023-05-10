@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/youngqqcn/arbitrum/common"
+	"github.com/youngqqcn/arbitrum/common/hexutil"
 )
 
 func TestRoundtrip(t *testing.T) {
@@ -60,7 +60,7 @@ func TestTextToRlp(t *testing.T) {
 			text: `[
   "",
   [],
-[     
+[
  [],
     ],
   5208,

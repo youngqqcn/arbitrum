@@ -19,10 +19,10 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli/v2"
+	"github.com/youngqqcn/arbitrum/cmd/devp2p/internal/v4test"
+	"github.com/youngqqcn/arbitrum/internal/utesting"
+	"github.com/youngqqcn/arbitrum/log"
 )
 
 var (
